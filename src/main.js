@@ -10,5 +10,5 @@ document.addEventListener('mousemove', (e) => {
   vertical.style.transform = `translateX(${e.clientX}px)`;
   target.style.transform = `translate(${e.clientX}px, ${e.clientY}px) translate(-50%, -50%)`;
   tag.style.transform = `translate(${e.clientX}px, ${e.clientY}px)`;
-  tag.innerHTML = `${e.clientX}, ${e.clientY}`;
+  tag.innerHTML = `${e.clientX}px, ${e.clientY}px`;
 });
